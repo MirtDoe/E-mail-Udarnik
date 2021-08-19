@@ -1,0 +1,126 @@
+<mjml>
+    <mj-head>
+        <mj-preview>Акционные предложения от интернет-магазина Ударник</mj-preview>
+        <mj-attributes>
+        <mj-accordion border="none" padding="1px" />
+        <mj-accordion-element icon-wrapped-url="/images/angle-down-solid.svg" icon-unwrapped-url="/images/angle-up-solid.svg" icon-height="24px" icon-width="24px" />
+        <mj-accordion-title font-family="MSemiBold, Arial, sans-serif" background-color="#fff" color="#031017" padding="15px" font-size="18px" />
+        <mj-accordion-text font-family="MSemiBold, Arial, sans-serif" background-color="#fafafa" padding="15px" color="#505050" font-size="14px" />
+        <mj-class name="bgclass" font-family="MSemiBold, Arial, sans-serif" />
+        </mj-attributes>
+        <mj-style inline="inline">
+        
+        </mj-style>
+    </mj-head>
+
+    <mj-body>
+        <mj-section  background-color="#ffffff">
+            <mj-column>
+                <mj-image width="200px" src="/images/logo.png" />
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color="#ffda00">
+            <mj-column>
+                <mj-navbar base-url="https://udarnik.com.ru/" hamburger="hamburger" ico-color="#000000">
+                <mj-navbar-link mj-class="bgclass" color="#000000" href="/laminat-so-skidkoj.html">Ламинат</mj-navbar-link>
+                <mj-navbar-link mj-class="bgclass" color="#000000" href="/santechnika/udar-po-covid-19/">Радомир акция</mj-navbar-link>
+                <mj-navbar-link mj-class="bgclass" color="#000000" href="/santechnika/smesiteli/akcionnye-nabory-smesitelej/">Наборы смесителей</mj-navbar-link>
+                <mj-navbar-link mj-class="bgclass" color="#000000" href="/santechnika/vannie/vanni-akrilovie/brand/akvatek/">Ванны Aquatek</mj-navbar-link>
+                </mj-navbar>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding="20px" background-color="#ffffff">
+        <mj-column background-color="#dededd">
+            <mj-accordion>
+                <mj-accordion-element>
+                    <mj-accordion-title>Why use an accordion?</mj-accordion-title>
+                    <mj-accordion-text>
+                        <span style="line-height:20px">
+                            Because emails with a lot of content are most of the time a very bad experience on mobile, mj-accordion comes handy when you want to deliver a lot of information in a concise way.
+                        </span>
+                    </mj-accordion-text>
+                </mj-accordion-element>
+            </mj-accordion>
+        </mj-column>
+        </mj-section>
+
+                <mj-hero
+                    width="50%"
+                    mode="fluid-height"
+                    background-width="600px"
+                    background-height="469px"
+                    background-url=
+                        "https://cloud.githubusercontent.com/assets/1830348/15354890/1442159a-1cf0-11e6-92b1-b861dadf1750.jpg"
+                    background-color="#2a3448"
+                    padding="100px 0px">
+                    <mj-text
+                        padding="20px"
+                        color="#ffffff"
+                        font-family="Helvetica"
+                        align="center"
+                        font-size="45px"
+                        line-height="45px"
+                        font-weight="900">
+                        GO TO SPACE
+                    </mj-text>
+                    <mj-button href="https://mjml.io/" align="center">
+                        ORDER YOUR TICKET NOW
+                    </mj-button>
+                </mj-hero>
+           
+
+                <mj-hero
+                    width="48%" 
+                    padding="0 0 0 2%"
+                    mode="fluid-height"
+                    background-width="600px"
+                    background-height="469px"
+                    background-url=
+                        "https://cloud.githubusercontent.com/assets/1830348/15354890/1442159a-1cf0-11e6-92b1-b861dadf1750.jpg"
+                    background-color="#2a3448"
+                    padding="100px 0px">
+                    <mj-text
+                        padding="20px"
+                        color="#ffffff"
+                        font-family="Helvetica"
+                        align="center"
+                        font-size="45px"
+                        line-height="45px"
+                        font-weight="900">
+                        GO TO SPACE
+                    </mj-text>
+                    <mj-button href="https://mjml.io/" align="center">
+                        ORDER YOUR TICKET NOW
+                    </mj-button>
+                </mj-hero>
+
+        <mj-section>
+            <mj-column>
+                <mj-button mj-class="bgclass" background-color="#f45e43" color="white">
+                    Don't click me!
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color="#ffda00">
+            <mj-column>
+                <mj-social mj-class="bgclass" font-size="15px" icon-size="30px" mode="horizontal">
+                <mj-social-element src="/images/youtube-brands.svg" href="https://www.youtube.com/channel/UCJRIoXcse2ZfVSkQwJlRlGg">
+                    Youtube
+                </mj-social-element>
+                <mj-social-element src="/images/instagram-square-brands.svg" href="https://www.instagram.com/udarnik_store/">
+                    Instagram
+                </mj-social-element>
+                <mj-social-element src="/images/vk-brands.svg" href="https://vk.com/udarnik_official">
+                    Vkontakte
+                </mj-social-element>
+                <mj-social-element src="/images/twitter-brands.svg" href="https://twitter.com/guupklmuidom1w0">
+                    Twitter
+                </mj-social-element>
+                </mj-social>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
