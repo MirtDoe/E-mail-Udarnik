@@ -1,0 +1,70 @@
+<mjml>
+<mj-head>
+    <mj-attributes>
+        <mj-class name="mjclass" padding="0 10px"/>
+        <mj-accordion border="none" padding="1px" />
+        <mj-accordion-element icon-wrapped-url="/images/angle-down-solid.svg" icon-unwrapped-url="/images/angle-up-solid.svg" icon-height="24px" icon-width="24px" />
+        <mj-accordion-title font-family="MSemiBold, Arial, sans-serif" background-color="#fff" color="#c6aa00" padding="15px" font-size="18px" />
+        <mj-accordion-text font-family="MSemiBold, Arial, sans-serif" background-color="#fafafa" padding="15px" color="#505050" font-size="14px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+    </mj-style>
+</mj-head>
+<mj-body background-color="#ffffff">
+    <mj-section background-color="#ffffff">
+        <mj-column width="30%">
+            <mj-image src="/images/logo.png" width="200px" alt="Udarnik logo" align="center" padding="10px"></mj-image>
+        </mj-column>
+        <mj-column width="100%" background-color="#0D0C0D">
+            <mj-navbar base-url="https://udarnik.com.ru" hamburger="hamburger" ico-color="#c6aa00">
+                <mj-navbar-link font-family="MSemiBold, Arial, sans-serif" color="#c6aa00" href="/santechnika/udar-po-covid-19/">Радомир акция</mj-navbar-link>
+                <mj-navbar-link font-family="MSemiBold, Arial, sans-serif" color="#c6aa00" href="/santechnika/smesiteli/akcionnye-nabory-smesitelej/">наборы смесителей</mj-navbar-link>
+                <mj-navbar-link font-family="MSemiBold, Arial, sans-serif" color="#c6aa00" href="/santechnika/vannie/vanni-akrilovie/brand/akvatek/">Акриловые ванны Aquatek</mj-navbar-link>
+            </mj-navbar>
+        </mj-column>
+    </mj-section>
+
+    <mj-section padding="20px 0 20px 0" background-color="#ffffff">
+        <mj-column background-color="#dededd">
+            <mj-accordion>
+                <mj-accordion-element>
+                <mj-accordion-title>Благодарим Вас за выбор нашего магазина.</mj-accordion-title>
+                <mj-accordion-text>
+                    <span style="line-height:20px" color="#c6aa00">
+                    Мы хотим предложить Вам комплект для подвисного унитаза по специальной цене. При заказе данной позиции до 01.09.2021 скидка 12%.
+                    </span>
+                </mj-accordion-text>
+                </mj-accordion-element>
+            </mj-accordion>
+        </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff">
+        <mj-column>
+            <mj-text font-family="MSemiBold, Arial, sans-serif" font-size="25px" align="center" color="#000000" padding="0 0 10px 0"><strong>Grohe Rapid SL инсталляция для унитаза</strong></mj-text>
+            <mj-carousel mj-class="mjclass" icon-width="25px" left-icon="/images/angle-left-solid.svg" right-icon="/images/angle-right-solid.svg" tb-selected-border-color="#ffdb00">
+                <mj-carousel-image mj-class="mjclass" src="/images/1.jpg" />
+                <mj-carousel-image mj-class="mjclass" src="/images/2.jpg" />
+                <mj-carousel-image mj-class="mjclass" src="/images/3.jpg" />
+            </mj-carousel>
+        </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff">
+        <mj-column>
+            <mj-button font-family="MSemiBold, Arial, sans-serif" color="#c6aa00" background-color="#0D0C0D" font-size="15px" href="https://udarnik.com.ru/santechnika/installjacionnie-sistemi/grohe-rapid-sl-38772001-installyacionnaya-sistema-dlya-unitaza-3-v-1.html">Подробнее</mj-button>
+        </mj-column>
+    </mj-section>
+
+    <mj-section  background-color="#0D0C0D">
+        <mj-column width="100%">
+            <mj-text font-family="MSemiBold, Arial, sans-serif" align="center" color="#c6aa00" padding="0 10px"> Данное письмо не требует ответа. Больше информации о акциях, в наших соц. сетях. </mj-text>
+            <mj-social font-size="15px" align="center" icon-size="20px" mode="horizontal">
+                <mj-social-element background-color="#c6aa00" src="/images/vk-brands.svg" href="https://vk.com/udarnik_official"></mj-social-element>
+                <mj-social-element background-color="#c6aa00" src="/images/twitter-brands.svg" href="https://twitter.com/guupklmuidom1w0"></mj-social-element>
+                <mj-social-element background-color="#c6aa00" src="/images/instagram-square-brands.svg" href="https://www.instagram.com/udarnik.com.ru/"></mj-social-element>
+            </mj-social>
+        </mj-column>
+    </mj-section>
+</mj-body>
+</mjml>
