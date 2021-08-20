@@ -22,23 +22,71 @@
 
         <mj-section background-color="#ffda00">
             <mj-column>
+                <mj-text
+                    color="#000000"
+                    mj-class="bgclass"
+                    align="center"
+                    font-size="18px"
+                    line-height="15px"
+                    font-weight="700">
+                        Действующие акции: 
+                </mj-text>
                 <mj-navbar base-url="https://udarnik.com.ru/" hamburger="hamburger" ico-color="#000000">
                 <mj-navbar-link mj-class="bgclass" color="#000000" href="/laminat-so-skidkoj.html">Ламинат</mj-navbar-link>
-                <mj-navbar-link mj-class="bgclass" color="#000000" href="/santechnika/udar-po-covid-19/">Радомир акция</mj-navbar-link>
+                <mj-navbar-link mj-class="bgclass" color="#000000" href="/santechnika/udar-po-covid-19/">Радомир</mj-navbar-link>
                 <mj-navbar-link mj-class="bgclass" color="#000000" href="/santechnika/smesiteli/akcionnye-nabory-smesitelej/">Наборы смесителей</mj-navbar-link>
                 <mj-navbar-link mj-class="bgclass" color="#000000" href="/santechnika/vannie/vanni-akrilovie/brand/akvatek/">Ванны Aquatek</mj-navbar-link>
                 </mj-navbar>
             </mj-column>
         </mj-section>
 
+        <mj-hero
+            mode="fluid-height"
+            background-width="600px"
+            background-height="469px"
+            background-url=
+                "/images/bg.jpg"
+            background-color="#2a3448"
+            padding="100px 0px">
+                <mj-text
+                    padding="20px"
+                    color="#000000"
+                    mj-class="bgclass"
+                    align="center"
+                    font-size="30px"
+                    line-height="45px"
+                    font-weight="900">
+                        Акция на инсталляцию для унитаза Grohe Rapid SL
+                </mj-text>
+                <mj-button color="#ffda00" align="center" mj-class="bgclass" href="https://udarnik.com.ru/santechnika/installjacionnie-sistemi/grohe-rapid-sl-38772001-installyacionnaya-sistema-dlya-unitaza-3-v-1.html">
+                    Подробнее
+                </mj-button>
+        </mj-hero>
+
         <mj-section padding="20px" background-color="#ffffff">
         <mj-column background-color="#dededd">
             <mj-accordion>
                 <mj-accordion-element>
-                    <mj-accordion-title>Why use an accordion?</mj-accordion-title>
+                    <mj-accordion-title>Технические характеристики:</mj-accordion-title>
                     <mj-accordion-text>
                         <span style="line-height:20px">
-                            Because emails with a lot of content are most of the time a very bad experience on mobile, mj-accordion comes handy when you want to deliver a lot of information in a concise way.
+                            Высота: 113см; <br>
+                            Ширина: 50см; <br>
+                            Глубина: 23см; <br>
+                            Назначение:  для унитаза; <br>
+                            Цвет кнопки:  хром; <br>
+                            Состав покупки:  инсталляция, монтажный комплект с кнопкой; <br>
+                            Страна:  Германия; <br>
+                            Производитель:  Grohe; <br>
+                            Гарантия:  5 лет. <br>
+                        </span>
+                    </mj-accordion-text>
+                </mj-accordion-element>
+                <mj-accordion-element>
+                    <mj-accordion-title>Акционный промокод:</mj-accordion-title>
+                    <mj-accordion-text>
+                        <span style="line-height:20px">
+                            При предъявлении скриншота данного письма, Вам доступна скидка 5% на любую покупку.
                         </span>
                     </mj-accordion-text>
                 </mj-accordion-element>
@@ -46,67 +94,12 @@
         </mj-column>
         </mj-section>
 
-                <mj-hero
-                    width="50%"
-                    mode="fluid-height"
-                    background-width="600px"
-                    background-height="469px"
-                    background-url=
-                        "https://cloud.githubusercontent.com/assets/1830348/15354890/1442159a-1cf0-11e6-92b1-b861dadf1750.jpg"
-                    background-color="#2a3448"
-                    padding="100px 0px">
-                    <mj-text
-                        padding="20px"
-                        color="#ffffff"
-                        font-family="Helvetica"
-                        align="center"
-                        font-size="45px"
-                        line-height="45px"
-                        font-weight="900">
-                        GO TO SPACE
-                    </mj-text>
-                    <mj-button href="https://mjml.io/" align="center">
-                        ORDER YOUR TICKET NOW
-                    </mj-button>
-                </mj-hero>
-           
-
-                <mj-hero
-                    width="48%" 
-                    padding="0 0 0 2%"
-                    mode="fluid-height"
-                    background-width="600px"
-                    background-height="469px"
-                    background-url=
-                        "https://cloud.githubusercontent.com/assets/1830348/15354890/1442159a-1cf0-11e6-92b1-b861dadf1750.jpg"
-                    background-color="#2a3448"
-                    padding="100px 0px">
-                    <mj-text
-                        padding="20px"
-                        color="#ffffff"
-                        font-family="Helvetica"
-                        align="center"
-                        font-size="45px"
-                        line-height="45px"
-                        font-weight="900">
-                        GO TO SPACE
-                    </mj-text>
-                    <mj-button href="https://mjml.io/" align="center">
-                        ORDER YOUR TICKET NOW
-                    </mj-button>
-                </mj-hero>
-
-        <mj-section>
-            <mj-column>
-                <mj-button mj-class="bgclass" background-color="#f45e43" color="white">
-                    Don't click me!
-                </mj-button>
-            </mj-column>
-        </mj-section>
-
         <mj-section background-color="#ffda00">
             <mj-column>
-                <mj-social mj-class="bgclass" font-size="15px" icon-size="30px" mode="horizontal">
+                <mj-social mj-class="bgclass" 
+                        font-size="15px" 
+                        icon-size="30px" 
+                        mode="horizontal">
                 <mj-social-element src="/images/youtube-brands.svg" href="https://www.youtube.com/channel/UCJRIoXcse2ZfVSkQwJlRlGg">
                     Youtube
                 </mj-social-element>
